@@ -49,10 +49,12 @@ li {
 .leftsecond {
     display: flex;
     flex-direction: column;
+    max-width: 400px;
 }
 
 .headerimg  {
-    max-width: 300px;
+    max-width: 500px;
+    max-height: 300px;
 }
 
 .awesome    {
@@ -82,7 +84,7 @@ li {
     flex-direction: column;
     background-color: white;
     align-items: center;
-    height: 400px;
+    height: 500px;
 }
 
 .infoheader {
@@ -96,13 +98,13 @@ li {
     flex-direction: row;
     justify-content: space-evenly;
     background-color: white;
-    gap: 24px;
+    gap: 80px;
     margin-bottom: 48px;
 }
 
 .card {
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 150px;
+    max-height: 150px;
     display: flex;
     flex-direction: column;
     }
